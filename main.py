@@ -20,6 +20,8 @@ if api_key is None:
 
 # print(response.choices[0].message['content'])
 
+
+#gerando imagem
 openai.api_key = api_key
 
 description = "a baby with an old man's face crying."
